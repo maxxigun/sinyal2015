@@ -4,4 +4,4 @@ fs=8192;%örnekleme frekansı
 
 t = 0:1/fs:(vurus-1/fs); %t yi tanımladik
 
-x = sin(2*pi*f*t); %sinüs olusturduk
+x = sin(2*pi*f*t); %sinüs olusturduk.
