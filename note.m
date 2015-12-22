@@ -1,7 +1,36 @@
-function [x,t] = note(f,vurus) %argumaný f ve vurus olan fonksiyon tanýmladýk
+function [a,b] = note(f,vurus) %fonksiyonu tanimliyoruz.girilicek argumanlari tanýmladýk
 
 fs=8192;%örnekleme frekansý
 
-t = 0:1/fs:(vurus-1/fs); %t yi tanýmladik
+b = 0:1/fs:vurus; %zaman aralýgý
 
-x = sin(2*pi*f*t); %sinüs olusturduk.
+
+
+
+
+    elemanS = length(b); %% Eleman sayýsý
+
+    
+
+    attack = linspace(0,1.5,(elemanS*2/8));
+
+    
+
+    decay = linspace(1.5-(0.5/(elemanS/8)),1,(elemanS/8));
+
+    
+
+    sustain = ones(1,(elemanS/2));
+
+    
+
+    relase = linspace(1-(1/(elemanS/8)),0,(elemanS/8));
+
+    
+
+    zarf = [attack, decay, sustain, relase];
+
+
+
+
+    a = zarf .* sin(2*pi*f*b + zarf); %% zarflý sinüs
