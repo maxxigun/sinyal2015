@@ -5,6 +5,6 @@ Proje : MATLAB ile sentezleme
 
 frek.m  : oktav hesaplamasý yapar.
 note.m : sinüs grafigini çizer.
-notalar.txt : notalarýmýn vuruþlarýný yazdým.
+notalar.txt : notalarýmýn vuruþlarýný ,isimlerini ve oktavlarýný yazdým.
 notalar.png: notalarýmýn gösterimi.
 Oktav Tablosunda Aþagýya dogru 2 kat fark var . .
