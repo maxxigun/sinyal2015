@@ -1,43 +1,41 @@
-Do,5,3
-Re,5,2
-Do,5,1
-Si,4,3
-Do,5,1
-Si,4,1
-Do,5,1
-La,4,3
-Si,4,1
-La,4,1
-Si,4,1
-Sol,4,3
-Sol,4,3
-Sol,4,3
-La,4,2
-Sol,4,1
-Fa,4,1
-Mi,4,2
-Mi,4,3
-Do,5,1
-Re,5,1
-Do,5,1
-Si,4,1
-Sol,4,1
-La,4,1
-Si,4,3
-Mi,5,3
-La,4,3
-Si,4,2
-La,4,1
-Sol,4,1
-Fa,4,2
-Fa,4,3
-Si,4,1
-Do,5,1
-La,4,1
-Sol,4,1
-Fa,4,1
-Sol,4,1
-Mi,4,3
-Mi,4,3
-
-
+Do 5 3
+Re 5 2
+Do 5 1
+Si 4 3
+Do 5 1
+Si 4 1
+Do 5 1
+La 4 3
+Si 4 1
+La 4 1
+Si 4 1
+Sol 4 3
+Sol 4 3
+Sol 4 3
+La 4 2
+Sol 4 1
+Fa 4 1
+Mi 4 2
+Mi 4 3
+Do 5 1
+Re 5 1
+Do 5 1
+Si 4 1
+Sol 4 1 
+La 4 1
+Si 4 3
+Mi 5 3
+La 4 3
+Si 4 2
+La 4 1
+Sol 4 1
+Fa 4 2
+Fa 4 3
+Si 4 1
+Do 5 1
+La 4 1
+Sol 4 1
+Fa 4 1
+Sol 4 1
+Mi 4 3
+Mi 4 3
